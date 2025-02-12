@@ -2,7 +2,7 @@
 
 This is a test project to figure out why Hilt is not working with custom entry point in `ActivityRetainedComponent` while it works with `ActivityComponent`.
 
-[Issue in Dagger repository](https://github.com/dagger/dagger/issues/9567)
+[Issue in Dagger repository](https://github.com/google/dagger/issues/4610)
 
 The following [code](app/src/main/kotlin/com/motorro/hiltentrypoint/MainActivity.kt) works perfectly fine with `ActivityComponent`:
 
